@@ -1,7 +1,104 @@
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-     color: #777;
-     background: #777 ;
-     width: 960px;
-     font-size: 18px;
-    margin: auto}
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
+  ;
+  width: 960px;
+  height: 810px;
+  font-size: 18px;
+  margin: 0;
+  background-image: url('/assets/images/background.jpg')
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.link{float: right;}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px
+}
+
+p {
+  font-size: .9em;
+  line-height: 1.6em;
+  color: #777777
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  color: black
+}
+
+footer {
+  border-top-color: #4aaaa5;
+  border-top-style: solid;
+  background: #666666;
+  text-align: center;;;
+}
+
+header {
+  background: #ffffff;
+  position: relative;
+  border-color: #cccccc;
+  border-width: 2px;
+  border-style: solid;
+}
+
+content {
+  background: #ffffff;
+  background: #dddddd
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.header {
+  width: 100%;
+  display: block;
+  height: 90px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  z-index: 2;
+}
+
+.innerheader {
+  width: 960px;
+  height: 100%;
+  display: block;
+  margin: 0;
+}
+
+
+.logocontainer hi {
+  color: white;
+  background-color: #4aaaa5;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+}
+
